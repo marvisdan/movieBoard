@@ -1,0 +1,22 @@
+<div class="container-fluid" ng-controller= "FilmRecentController">
+  <div class="row">
+    <h1>{{recent.film}} </h1>
+   <div class="col-md-6" class="series_img">
+     <img class="img-responsive" ng-src={{recent.film_img}}>
+   </div>
+      <div class="col-md-4">
+        <ul >
+          <li class="list-anime">Année de production: </br> <span>{{recent.annee}}</span>  </li>
+          <li class="list-anime"> Genre: </br><span>{{recent.genre}}</span>  </li>
+          <li class="list-anime"> Duree: </br><span>{{recent.duree}}</span>  </li>
+        </ul>
+      </div>
+    </div>
+      <div class="col-md-10">
+         <div class="synopsis">
+           <span> Synopsis:</span></br> </br>
+           <p>{{recent.synopsis}}</p>
+         </div>
+      </div>
+
+</div>

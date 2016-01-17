@@ -1,0 +1,92 @@
+
+
+    <div class="container-fluid" ng-controller="AnimeController">
+     <div class="row">
+       <nav class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+          <h1>Animes</h1>
+            <ul class="list-group">
+              <li class="list-group-item"><a ng-href="#/animeMoment">Animes du moment</a></li>
+              <li class="list-group-item"><a ng-href="#/animeCoupDeCoeur">Coup de coeur</a></li>
+              <li class="list-group-item"><a ng-href="#/animeAVoir">Animes à voir</a></li>
+              <li class="list-group-item"><a ng-href="#/animeTermine">Animes terminés</a></li>
+            </ul>
+       </nav>
+       <section  class="col-md-10 col-sm-10 col-xs-12" >
+          <div class="row">
+              <div class="col-md-6 col-sm-12 col-xs-12">
+                <figure class="figure">
+                    <a href="#"><img class="img-responsive" ng-src={{opm.anime_img}} ></a>
+                    <h4><span class="label label-danger">{{opm.saison}}</span></h4>
+                    <h3><a href="#">{{opm.anime}}</a><span>-{{opm.annee}}<span></h3>
+                    <figcaption class="figure-caption text-xs-right">Note: {{opm.note}} /10</figcaption>
+                </figure>
+              </div>
+              <div class="col-md-6 col-sm-12 col-xs-12">
+                <figure class="figure">
+                    <a href="#"><img class="img-responsive" ng-src={{food.anime_img}} ></a>
+                    <h4><span class="label label-danger">{{food.saison}}</span></h4>
+                    <h3><a href="#">{{food.anime}}</a><span>-{{food.annee}}<span></h3>
+                    <figcaption class="figure-caption text-xs-right">Note: {{food.note}} /10</figcaption>
+                </figure>
+              </div>
+          </div>
+          <aside lass="col-md-10 col-sm-10 col-xs-12">
+            <div class="row">
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                  <figure class="figure">
+                      <a href="#"><img class="img-responsive" ng-src={{op.anime_img}} ></a>
+                      <h4><span class="label label-danger"> {{op.saison}} </span></h4>
+                      <h3>{{op.anime}}<span>-{{op.saison}}<span></h3>
+                      <figcaption class="figure-caption text-xs-right">Note: {{op.note}} /10</figcaption>
+                  </figure>
+                </div>
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                  <figure class="figure">
+                      <a href="#"><img class="img-responsive" ng-src={{kuroko.anime_img}} ></a>
+                      <h4><span class="label label-danger"> {{kuroko.saison}} </span></h4>
+                      <h3>{{kuroko.anime}}<span>-{{kuroko.annee}}<span></h3>
+                      <figcaption class="figure-caption text-xs-right">Note: {{walking.note}} /10</figcaption>
+                  </figure>
+
+                </div>
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                  <figure class="figure">
+                      <a href="#"><img class="img-responsive" ng-src={{magi.anime_img}} ></a>
+                      <h4><span class="label label-danger"> {{magi.saison}} </span></h4>
+                      <h3>{{magi.anime}}<span>-{{magi.annee}}<span></h3>
+                      <figcaption class="figure-caption text-xs-right">Note: {{magi.note}} /10</figcaption>
+                  </figure>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                  <figure class="figure">
+                      <a href="#"><img class="img-responsive" ng-src={{trigger.anime_img}} ></a>
+                      <h4><span class="label label-danger"> {{trigger.saison}} </span></h4>
+                      <h3>{{trigger.anime}}<span>-{{trigger.annee}}<span></h3>
+                      <figcaption class="figure-caption text-xs-right">Note: {{trigger.note}} /10</figcaption>
+                  </figure>
+                </div>
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                  <figure class="figure">
+                      <a href="#"><img class="img-responsive" ng-src={{para.anime_img}} ></a>
+                      <h4><span class="label label-danger"> {{para.saison}} </span></h4>
+                      <h3>{{para.anime}}<span>-{{para.annee}}<span></h3>
+                      <figcaption class="figure-caption text-xs-right">Note: {{para.note}} /10</figcaption>
+                  </figure>
+
+                </div>
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                  <figure class="figure">
+                      <a href="#"><img class="img-responsive" ng-src={{gate.anime_img}} ></a>
+                      <h4><span class="label label-danger"> {{gate.saison}} </span></h4>
+                      <h3>{{gate.anime}}<span>-{{gate.annee}}<span></h3>
+                      <figcaption class="figure-caption text-xs-right">Note: {{gate.note}} /10</figcaption>
+                  </figure>
+                </div>
+            </div>
+          </aside>
+          </section>
+     </div>
+   </div>

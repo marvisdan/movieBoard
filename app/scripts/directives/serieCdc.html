@@ -1,0 +1,25 @@
+<div class="container-fluid" ng-controller= "SerieCdcController">
+  <div class="row">
+    <h1>{{cdc.series}} </h1>
+   <div class="col-md-6" class="series_img">
+     <img class="img-responsive" ng-src={{cdc.series_img}}>
+   </div>
+      <div class="col-md-4">
+        <ul >
+          <li class="list-anime">Dernier épisode visionné: </br> <span>{{cdc.episode}}</span> </li>
+          <li class="list-anime"> Saison: </br> <span>{{cdc.saison}}</span>  </li>
+          <li class="list-anime"> Genre: </br><span>{{cdc.genre}}</span>  </li>
+          <li class="list-anime">Année de production: </br> <span>{{cdc.annee}}</span>  </li>
+          <li class="list-anime">Année de production: </br> <span>{{cdc.note}}</span>  </li>
+
+        </ul>
+      </div>
+    </div>
+      <div class="col-md-10">
+         <div class="synopsis">
+           <span> Synopsis:</span></br> </br>
+           <p>{{cdc.synopsis}}</p>
+         </div>
+      </div>
+
+</div>

@@ -1,0 +1,22 @@
+<div class="container-fluid" ng-controller= "FilmAvoirController">
+  <div class="row">
+    <h1>{{vus.film}} </h1>
+   <div class="col-md-6" class="series_img">
+     <img class="img-responsive" ng-src={{vus.film_img}}>
+   </div>
+      <div class="col-md-4">
+        <ul >
+          <li class="list-anime">Année de production: </br> <span>{{vus.annee}}</span>  </li>
+          <li class="list-anime"> Genre: </br><span>{{vus.genre}}</span>  </li>
+          <li class="list-anime"> Duree: </br><span>{{vus.duree}}</span>  </li>
+        </ul>
+      </div>
+    </div>
+      <div class="col-md-10">
+         <div class="synopsis">
+           <span> Synopsis:</span></br> </br>
+           <p>{{vus.synopsis}}</p>
+         </div>
+      </div>
+
+</div>

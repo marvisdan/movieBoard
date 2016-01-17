@@ -1,0 +1,89 @@
+
+
+    <div class="container-fluid" ng-controller="FilmController">
+     <div class="row">
+       <nav class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+          <h1>Films</h1>
+            <ul class="list-group">
+              <li class="list-group-item"><a ng-href= "#/filmVu">Films vus récemment</a></li>
+              <li class="list-group-item"><a ng-href= "#/filmAvoir">Film à voir</a></li>
+            </ul>
+
+       </nav>
+       <section  class="col-md-10 col-sm-10 col-xs-12" >
+          <div class="row">
+            <div class="col-md-6 col-sm-12 col-xs-12">
+              <figure class="figure">
+                  <a href="#"><img class="img-responsive" ng-src={{edge.film_img}} ></a>
+                  <h4><span class="label label-danger"> {{edge.type}} </span></h4>
+                  <h3><a href="#">{{edge.film}}</a><span>-{{edge.annee}}<span></h3>
+                  <figcaption class="figure-caption text-xs-right">Note: {{edge.note}} /10</figcaption>
+              </figure>
+            </div>
+              <div class="col-md-6 col-sm-12 col-xs-12">
+                <figure class="figure">
+                    <a href="#"><img class="img-responsive" ng-src={{star.film_img}} ></a>
+                    <h4><span class="label label-danger"> {{star.type}} </span></h4>
+                    <h3><a href="#">{{star.film}}</a><span>-{{star.annee}}<span></h3>
+                    <figcaption class="figure-caption text-xs-right">Note: {{star.note}} /10</figcaption>
+                </figure>
+              </div>
+
+          </div>
+          <aside lass="col-md-10 col-sm-10 col-xs-12">
+            <div class="row">
+              <div class="col-md-4 col-sm-12 col-xs-12">
+                <figure class="figure">
+                    <a href="#"><img class="img-responsive" ng-src={{wolf.film_img}} ></a>
+                    <h4><span class="label label-danger"> {{wolf.type}} </span></h4>
+                    <h3>{{wolf.film}}<span>-{{wolf.annee}}<span></h3>
+                    <figcaption class="figure-caption text-xs-right">Note: {{wolf.note}} /10</figcaption>
+                </figure>
+              </div>
+              <div class="col-md-4 col-sm-12 col-xs-12">
+                <figure class="figure">
+                    <a href="#"><img class="img-responsive" ng-src={{nobody.film_img}} ></a>
+                    <h4><span class="label label-danger"> {{nobody.type}} </span></h4>
+                    <h3>{{nobody.film}}<span>-{{nobody.annee}}<span></h3>
+                    <figcaption class="figure-caption text-xs-right">Note: {{nobody.note}} /10</figcaption>
+                </figure>
+              </div>
+              <div class="col-md-4 col-sm-12 col-xs-12">
+                <figure class="figure">
+                    <a href="#"><img class="img-responsive" ng-src={{lab.film_img}} ></a>
+                    <h4><span class="label label-danger"> {{lab.type}} </span></h4>
+                    <h3>{{lab.film}}<span>-{{lab.annee}}<span></h3>
+                    <figcaption class="figure-caption text-xs-right">Note: {{lab.note}} /10</figcaption>
+                </figure>
+              </div>
+            </div>
+              <div class="row">
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                  <figure class="figure">
+                      <a href="#"><img class="img-responsive" ng-src={{jump.film_img}} ></a>
+                      <h4><span class="label label-danger"> {{jump.type}} </span></h4>
+                      <h3>{{jump.film}}<span>-{{jump.annee}}<span></h3>
+                      <figcaption class="figure-caption text-xs-right">Note: {{jump.note}} /10</figcaption>
+                  </figure>
+                </div>
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                  <figure class="figure">
+                      <a href="#"><img class="img-responsive" ng-src={{minion.film_img}} ></a>
+                      <h4><span class="label label-danger"> {{minion.type}} </span></h4>
+                      <h3>{{minion.film}}<span>-{{minion.annee}}<span></h3>
+                      <figcaption class="figure-caption text-xs-right">Note: {{minion.note}} /10</figcaption>
+                  </figure>
+                </div>
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                  <figure class="figure">
+                      <a href="#"><img class="img-responsive" ng-src={{ted.film_img}} ></a>
+                      <h4><span class="label label-danger"> {{ted.type}} </span></h4>
+                      <h3>{{ted.film}}<span>-{{ted.annee}}<span></h3>
+                      <figcaption class="figure-caption text-xs-right">Note: {{ted.note}} /10</figcaption>
+                  </figure>
+                </div>
+              </div>
+          </aside>
+          </section>
+     </div>
+   </div>

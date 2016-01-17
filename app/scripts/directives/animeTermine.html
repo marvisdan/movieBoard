@@ -1,0 +1,22 @@
+<div class="container-fluid" ng-controller= "AnimeTermineController">
+  <div class="row">
+    <h1>{{fin.anime}} </h1>
+   <div class="col-md-6" class="series_img">
+     <img class="img-responsive" ng-src={{fin.anime_img}}>
+   </div>
+      <div class="col-md-4">
+        <ul >
+          <li class="list-anime">Dernier épisode visionné: </br> <span>{{fin.episode}}</span> </li>
+          <li class="list-anime"> Saison: </br> <span>{{fin.saison}}</span>  </li>
+          <li class="list-anime">Année de production: </br> <span>{{fin.annee}}</span>  </li>
+          <li class="list-anime"> Genre: </br><span>{{fin.genre}}</span>  </li>
+        </ul>
+      </div>
+      <div class="col-md-10">
+         <div class="synopsis">
+           <span> Synopsis:</span></br> </br>
+           <p>{{fin.synopsis}}</p>
+         </div>
+      </div>
+    </div>
+</div>

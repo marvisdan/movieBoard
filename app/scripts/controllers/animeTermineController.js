@@ -79,7 +79,7 @@ $scope.finis=
 
     anime:'Akame ga Kill',
     annee: 2014,
-    anime_img: 'images/animes/opm.png',
+    anime_img: 'images/animes/akame.jpg',
     saison: 'Saison 1',
     episode: '24',
     genre:'Action, Aventure, Fantastique, Shounen, Super Power',

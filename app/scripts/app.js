@@ -74,7 +74,7 @@ var app= angular
         Controller:'SerieAvoirController'
       })
       .otherwise({
-        redirectTo: '/'
+        redirectTo: '/home'
       });
   });
 

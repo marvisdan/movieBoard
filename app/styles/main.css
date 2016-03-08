@@ -13,9 +13,9 @@ body {
   background-color:#1d1d1d;
 }
 .container-fluid{
-  /*max-height: 500px;
+  max-height: 1050px;
     overflow: hidden;
-    overflow-y: auto;*/
+    overflow-y: auto;
 
 }
 [class*="col-"]{
@@ -32,13 +32,26 @@ header:first-child{
 }
 .navbar{
 
-  opacity: 0.8;
+  opacity: 0.9;
 
 }
 nav{
 
-  height:1150px;
+  max-height:1030px;
   background-color: #1d1d1d;
+
+}
+a{
+color: white;
+opacity:0.9;
+transition-property: all;
+  transition-duration: .2s; /* on aurait pu écrire 500ms également */
+  transition-timing-function: ease-in;
+}
+ a:hover{
+ color:#d9534f;
+ opacity:0.9;
+text-decoration: none;
 
 
 }
@@ -76,10 +89,9 @@ nav > h1{
 section{
 
   background-color:black;
-  height:650px;
+  /*height:600px;*/
 }
 section .col-md-4, section .col-md-6, section .col-md-8{
-
 
   margin: 0px;
   padding:0px;
@@ -120,9 +132,10 @@ color: white;
 opacity:0.9;
 }
 h3 > a:hover{
-  color: white;
+  color:#d9534f;
   opacity:0.9;
  text-decoration: none;
+
 }
 span{
 
@@ -142,16 +155,33 @@ figure >h4{
   display: block;
 }
 
-footer {
-  background-color:#1d1d1d;
-  height:100px;
+footer{
+  /*background-color:#1d1d1d;*/
+  background-color:black;
+  color:white;
+  opacity: 0.5;
+  height:50px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 15px;
   clear:both;
+
 
 
 
 }footer [class*="col-"]{
   border: 0px solid black;
   color:white;
+}
+.alltext{
+  display: block;
+
+}
+.title{
+display: inline-block;
+}
+.text{
+  display: inline-block;
 }
 
 
@@ -179,7 +209,6 @@ footer {
 
 /* Custom page footer */
 .footer {
-  padding-top: 19px;
   color: #777;
   border-top: 1px solid #e5e5e5;
 }

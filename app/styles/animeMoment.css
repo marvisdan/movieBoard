@@ -29,11 +29,21 @@ header:first-child{
 
 }
 nav{
-
-  height:1150px;
+  max-height:2000px;
   background-color: #1d1d1d;
 
-
+}
+a{
+color: white;
+opacity:0.9;
+transition-property: all;
+  transition-duration: .2s; /* on aurait pu écrire 500ms également */
+  transition-timing-function: ease-in;
+}
+ a:hover{
+ color: #d9534f;
+ opacity:0.9;
+text-decoration: none;
 }
 .list-group{
 
@@ -66,7 +76,7 @@ nav > h1{
 section{
 
   background-color:black;
-  height:650px;
+  max-height:1030px;
 }
 section .col-md-4, section .col-md-6, section .col-md-8{
 
@@ -97,7 +107,7 @@ img{
 color: white;
 }
 h3 > a:hover{
-  color: white;
+  color:#d9534f;
  text-decoration: none;
 }
 span{
@@ -133,7 +143,7 @@ font-size:1em;
   margin-top:20px;
   padding-top:5px;
 }
-.synopsis > p{ 
+.synopsis > p{
   color: white;
   opacity:0.7;
 }
@@ -144,9 +154,16 @@ font-size:1em;
 }
 
 footer {
-  background-color:#1d1d1d;
-  height:100px;
+  /*background-color:#1d1d1d;*/
+  background-color:black;
+  color:white;
+  opacity: 0.5;
+  height:50px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 15px;
   clear:both;
+  text-align: right;
 
 
 

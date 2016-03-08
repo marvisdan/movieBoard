@@ -12,37 +12,47 @@
    </nav>
    <section  class=" col-lg-10 col-md-10 col-sm-10 col-xs-12" >
       <div class="row">
-          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <figure class="figure">
-                <a href="#"><img class="img-responsive" ng-src={{master.series_img}} /></a>
-                <h4><span class="label label-danger"> {{master.saison}} </span></h4>
-                <h3><a href="#">{{master.series}}</a><span>-{{master.annee}}<span></h3>
-                <figcaption class="figure-caption text-xs-right">Note: {{master.note}} /10</figcaption>
+                <a href="#"><img class="img-responsive" ng-src={{saul.series_img}} /></a>
+                <h4><span class="label label-danger"> {{saul.saison}} </span></h4>
+                <h3><a href="#">{{saul.series}}</a><span>-{{saul.annee}}<span></h3>
+                <figcaption class="figure-caption text-xs-right">Note: {{saul.note}} /10</figcaption>
             </figure>
           </div>
 
-            <div class=" col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <div class=" col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <figure class="figure">
-                    <a href="#"><img class="img-responsive" ng-src={{master.series_img}} /></a>
-                    <h4><span class="label label-danger"> {{master.saison}} </span></h4>
-                    <h3><a href="#">{{master.series}}</a><span>-{{master.annee}}<span></h3>
-                    <figcaption class="figure-caption text-xs-right">Note: {{master.note}} /10</figcaption>
+                  <a href="#"><img class="img-responsive" ng-src={{son.series_img}} ></a>
+                  <h4><span class="label label-danger"> {{son.saison}} </span></h4>
+                  <h3><a href="#">{{son.series}}</a><span>-{{son.annee}}<span></h3>
+                  <figcaption class="figure-caption text-xs-right">Note: {{son.note}} /10</figcaption>
                 </figure>
 
           </div>
 
         <aside class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
           <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
               <figure class="figure">
-                  <a href="#"><img class="img-responsive" ng-src={{saul.series_img}} ></a>
-                  <h4><span class="label label-danger"> {{saul.saison}} </span></h4>
-                  <h3><a href="#">{{saul.series}}</a><span>-{{saul.annee}}<span></h3>
-                  <figcaption class="figure-caption text-xs-right">Note: {{saul.note}} /10</figcaption>
+                  <a href="#"><img class="img-responsive" ng-src={{wire.series_img}} ></a>
+                  <h4><span class="label label-danger"> {{wire.saison}} </span></h4>
+                  <h3><a href="#">{{wire.series}}</a><span>-{{wire.annee}}<span></h3>
+                  <figcaption class="figure-caption text-xs-right">Note:{{wire.note}} /10</figcaption>
               </figure>
             </div>
 
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+              <figure class="figure">
+                  <a href="#"><img class="img-responsive" ng-src={{master.series_img}} ></a>
+                  <h4><span class="label label-danger"> {{master.saison}} </span></h4>
+                  <h3><a href="#">{{master.series}}</a><span>-{{master.annee}}<span></h3>
+                  <figcaption class="figure-caption text-xs-right">Note: {{master.note}} /10</figcaption>
+              </figure>
+            </div>
+
+
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
               <figure class="figure">
                   <a href="#"><img class="img-responsive" ng-src={{himym.series_img}} ></a>
                   <h4><span class="label label-danger"> {{himym.saison}} </span></h4>
@@ -53,15 +63,15 @@
             </div>
           </div>
         <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
               <figure class="figure">
-                  <a href="#"><img class="img-responsive" ng-src={{community.series_img}} ></a>
-                  <h4><span class="label label-danger"> {{community.saison}} </span></h4>
-                  <h3><a href="#">{{community.series}}</a><span>-{{community.annee}}<span></h3>
-                  <figcaption class="figure-caption text-xs-right">Note: {{community.note}} /10</figcaption>
+                <a href="#"><img class="img-responsive" ng-src={{homeland.series_img}} ></a>
+                <h4><span class="label label-danger"> {{homeland.saison}} </span></h4>
+                <h3><a href="#">{{homeland.series}}</a><span>-{{homeland.annee}}<span></h3>
+                <figcaption class="figure-caption text-xs-right">Note: {{homeland.note}} /10</figcaption>
               </figure>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
               <figure class="figure">
                   <a href="#"><img class="img-responsive" ng-src={{walking.series_img}} ></a>
                   <h4><span class="label label-danger"> {{walking.saison}} </span></h4>
@@ -70,19 +80,16 @@
               </figure>
 
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
               <figure class="figure">
-                  <a href="#"><img class="img-responsive" ng-src={{homeland.series_img}} ></a>
-                  <h4><span class="label label-danger"> {{homeland.saison}} </span></h4>
-                  <h3><a href="#">{{homeland.series}}</a><span>-{{homeland.annee}}<span></h3>
-                  <figcaption class="figure-caption text-xs-right">Note: {{homeland.note}} /10</figcaption>
+                <a href="#"><img class="img-responsive" ng-src={{community.series_img}} ></a>
+                <h4><span class="label label-danger"> {{community.saison}} </span></h4>
+                <h3><a href="#">{{community.series}}</a><span>-{{community.annee}}<span></h3>
+                <figcaption class="figure-caption text-xs-right">Note: {{community.note}} /10</figcaption>
               </figure>
             </div>
         </div>
       </aside>
       </section>
  </div>
-   <footer class="row">
-   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"><h4>Pied de page</h4></div>
- </footer>
 </div>

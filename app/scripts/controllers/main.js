@@ -92,12 +92,6 @@
                         note: 7.5
                       };
 
-
-
-
-
-
-
     /*this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',

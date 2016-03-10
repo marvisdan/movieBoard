@@ -1,7 +1,6 @@
 # movie-board
 
-This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
-version 0.14.0.
+Une web app en angularJS qui permet de suivre l'avancé de ses séries TV préférées.
 
 ## Build & development
 
